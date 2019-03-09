@@ -1,0 +1,13 @@
+id,name,sequence,action_id:id,url,display_inline_image,display_outline_image,use_quotations,use_products,use_invoices,use_delivery_orders,use_woo_commerce_workflow,use_log
+woo_commerce_sales_order_ept,Sales Orders,1,woo_commerce_ept.action_woo_sales_order,/woo_commerce_ept/static/src/img/kanban/sale.png,0,1,1,0,0,0,0,0
+woo_commerce_products_ept,Products,2,woo_commerce_ept.action_woo_product_ept,/woo_commerce_ept/static/src/img/kanban/products.png,0,1,0,1,0,0,0,0
+woo_commerce_delivery_order_ept,Delivery Orders,3,woo_commerce_ept.action_picking_view_ept,/woo_commerce_ept/static/src/img/kanban/delivery.png,1,0,0,0,0,1,0,0
+woo_commerce_invoices_ept,Invoices,4,woo_commerce_ept.action_invoice_woo_invoices,/woo_commerce_ept/static/src/img/kanban/invoice.png,0,1,0,0,1,0,0,0
+woo_commerce_mismatch_logs_ept,Mismatch Log,5,woo_commerce_ept.action_mismatch_log_ept,/woo_commerce_ept/static/src/img/kanban/feed_history.png,0,1,0,0,0,0,0,1
+woo_commerce_customer_ept,Customer,6,woo_commerce_ept.action_woo_partner_form,/woo_commerce_ept/static/src/img/kanban/customer.png,0,1,0,0,0,0,0,0
+woo_commerce_tags_ept,Tags,7,woo_commerce_ept.product_tags_action_ept,/woo_commerce_ept/static/src/img/kanban/tags.png,0,1,0,0,0,0,0,0
+woo_commerce_categories_ept,Categories,8,woo_commerce_ept.product_categ_action_ept,/woo_commerce_ept/static/src/img/kanban/categories.png,0,1,0,0,0,0,0,0
+woo_commerce_import_export_ept,Perform Operation,9,woo_commerce_ept.action_wizard_woo_processes_ept,/woo_commerce_ept/static/src/img/kanban/perform_operations.png,0,1,0,0,0,0,0,0
+woo_commerce_cron_jobs_ept,WooCommerce Cron,10,base.ir_cron_act,/woo_commerce_ept/static/src/img/kanban/auto_jobs.png,0,1,0,0,0,0,0,0
+woo_commerce_sales_analysis_ept,Sales Analysis,11,woo_commerce_ept.action_order_report_all,/woo_commerce_ept/static/src/img/kanban/sales_report.png,0,1,0,0,0,0,0,0
+woo_commerce_invoice_workflow_ept,Invoice Workflow Settings,12,woo_commerce_ept.act_sale_workflow_config_form,/woo_commerce_ept/static/src/img/kanban/setting.png,0,1,0,0,0,0,1,0
