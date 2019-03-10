@@ -1,4 +1,4 @@
-from compat import xmlrpc_client, http_client
+from .compat import xmlrpc_client, http_client
 
 
 class ProxiedTransport(xmlrpc_client.Transport):

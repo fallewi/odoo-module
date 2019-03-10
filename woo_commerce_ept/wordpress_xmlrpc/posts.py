@@ -1,5 +1,5 @@
-from wordpress import WordPressPost,WordPressPostType
-from base import AuthenticatedMethod
+from .wordpress import WordPressPost,WordPressPostType
+from .base import AuthenticatedMethod
 class GetPosts(AuthenticatedMethod):
     """
     Retrieve posts from the blog.

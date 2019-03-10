@@ -1,6 +1,5 @@
-from wordpress import WordPressTaxonomy, WordPressTerm
-
-
+from .wordpress import WordPressTaxonomy, WordPressTerm
+from .base import AuthenticatedMethod
 class GetTaxonomies(AuthenticatedMethod):
     """
     Retrieve the list of available taxonomies for the blog.

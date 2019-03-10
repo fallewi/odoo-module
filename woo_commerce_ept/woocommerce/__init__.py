@@ -14,5 +14,5 @@ __version__ = "1.0.5"
 __author__ = "Claudio Sanches @ WooThemes"
 __license__ = "MIT"
 
-import api
-import oauth
+from . import api
+from . import oauth
