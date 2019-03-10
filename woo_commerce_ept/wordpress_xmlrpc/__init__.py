@@ -3,8 +3,8 @@ Library to interface with the WordPress XML-RPC API.
 
 See README for usage instructions.
 """
-from .. import *
-from wordpress_xmlrpc.wordpress import *
+# from .. import *
+# from wordpress_xmlrpc.wordpress import *
 #namth
 # import exceptions
 # import base
@@ -20,4 +20,5 @@ from wordpress_xmlrpc.wordpress import *
 # import comments
 # import media
 
-#from . import *
+from . import *
+from wordpress_xmlrpc.wordpress import *
