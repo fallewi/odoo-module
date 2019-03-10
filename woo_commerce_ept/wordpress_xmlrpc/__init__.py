@@ -19,18 +19,4 @@ See README for usage instructions.
 # import options
 # import comments
 # import media
-
-from . import exceptions
-from . import base
-from . import compat
-from . import fieldmaps
-from . import transports
-from . import wordpress
-from . import posts
-from . import pages
-from . import demo
-from . import users
-from . import options
-from . import comments
-from . import media
-from . import taxonomies
+from . import exceptions, base, compat, fieldmaps, transports, wordpress, posts, pages, demo, users, options, comments, media, taxonomies
