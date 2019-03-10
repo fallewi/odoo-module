@@ -1,7 +1,7 @@
 import collections
 import sys
 
-from .. import *
+from . import *
 from exceptions import ServerConnectionError, UnsupportedXmlrpcMethodError, InvalidCredentialsError, XmlrpcDisabledError 
 from compat import xmlrpc_client
 
