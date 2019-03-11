@@ -1,6 +1,6 @@
 import sys
-from compat import *
-from fieldmaps import FieldMap, IntegerFieldMap, DateTimeFieldMap, TermsListFieldMap
+from .compat import *
+from .fieldmaps import FieldMap, IntegerFieldMap, DateTimeFieldMap, TermsListFieldMap
 
 
 class WordPressBase(object):

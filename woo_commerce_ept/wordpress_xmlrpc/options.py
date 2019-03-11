@@ -1,5 +1,5 @@
-from base import *
-from wordpress import WordPressOption
+from .base import *
+from .wordpress import WordPressOption
 
 
 class GetOptions(AuthenticatedMethod):

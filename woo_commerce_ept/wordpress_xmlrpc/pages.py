@@ -1,4 +1,4 @@
-from base import AuthenticatedMethod
+from .base import AuthenticatedMethod
 
 
 class GetPageStatusList(AuthenticatedMethod):

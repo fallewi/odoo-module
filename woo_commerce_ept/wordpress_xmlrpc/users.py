@@ -1,5 +1,5 @@
-from base import *
-from wordpress import WordPressBlog, WordPressAuthor, WordPressUser
+from .base import *
+from .wordpress import WordPressBlog, WordPressAuthor, WordPressUser
 
 
 class GetUsers(AuthenticatedMethod):

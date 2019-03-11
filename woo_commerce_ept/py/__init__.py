@@ -1,15 +1,1 @@
-import woo_instance_ept
-import woo_tags_ept
-import woo_product_categ_ept
-import woo_product_ept
-import woo_product_image_ept
-import product
-import sale_workflow_config
-import res_partner
-import sale_order
-import stock_picking
-import stock_quant_package
-import account_invoice
-import sale_report
-import woo_process_job
-import operations
+from . import woo_instance_ept, woo_tags_ept, woo_product_categ_ept, woo_product_ept, woo_product_image_ept, product, sale_workflow_config, res_partner, sale_order, stock_picking, stock_quant_package, account_invoice, sale_report, woo_process_job, operations

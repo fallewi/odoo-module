@@ -1,4 +1,4 @@
-from base import AnonymousMethod
+from .base import AnonymousMethod
 
 
 class SayHello(AnonymousMethod):

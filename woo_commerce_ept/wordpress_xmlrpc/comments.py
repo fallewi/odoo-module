@@ -1,5 +1,5 @@
-from base import *
-from wordpress import WordPressComment
+from .base import *
+from .wordpress import WordPressComment
 
 
 class GetComment(AuthenticatedMethod):

@@ -1,6 +1,5 @@
 import datetime
-
-from compat import xmlrpc_client
+from .compat import xmlrpc_client
 
 class FieldMap(object):
     """

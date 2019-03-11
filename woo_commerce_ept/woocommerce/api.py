@@ -11,7 +11,7 @@ __license__ = "MIT"
 
 from requests import request
 from json import dumps as jsonencode
-from oauth import OAuth
+from .oauth import OAuth
 
 
 class API(object):

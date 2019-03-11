@@ -1,5 +1,5 @@
-from base import *
-from wordpress import WordPressMedia
+from .base import *
+from .wordpress import WordPressMedia
 
 
 class GetMediaLibrary(AuthenticatedMethod):
